@@ -7,7 +7,7 @@ import {
   Store,
 } from "lucide-react";
 import { useAuth } from "../contexts/AuthContext";
-import { useCart } from "../contexts/CartContext";
+import { useCart } from "../contexts/cartContext";
 import { navigate, useCurrentPath } from "../pages/Router";
 
 export const Header = () => {

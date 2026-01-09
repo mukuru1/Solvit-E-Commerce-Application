@@ -1,5 +1,5 @@
 import { ShoppingCart, Heart } from "lucide-react";
-import { useCart } from "../contexts/CartContext";
+import { useCart } from "../contexts/cartContext";
 
 export const ProductCard = ({ product }) => {
   const {
