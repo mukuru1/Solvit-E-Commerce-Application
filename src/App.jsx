@@ -1,12 +1,12 @@
-import { AuthProvider } from "./contexts/AuthContext";
+import { AuthProvider } from "./contexts/Authcontext";
 import { CartProvider } from "./contexts/cartContext";
 import { Header } from "./components/header";
 import { ProductList } from "./components/productList";
-import { Cart } from "./pages/Cart";
-import { Wishlist } from "./pages/Wishlist";
-import { Login } from "./pages/Login";
-import { Dashboard } from "./pages/Dashboard";
-import { Route, ProtectedRoute } from "./pages/Router";
+import { Cart } from "./pages/cart";
+import { Wishlist } from "./pages/wishlist";
+import { Login } from "./pages/login";
+import { Dashboard } from "./pages/dashboard";
+import { Route, ProtectedRoute } from "./pages/router";
 
 export default function App() {
   return (
