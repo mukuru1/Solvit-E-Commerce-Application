@@ -1,4 +1,4 @@
-import { AuthProvider } from "./contexts/Authcontext";
+import { AuthProvider } from "./contexts/authContext";
 import { CartProvider } from "./contexts/cartContext";
 import { Header } from "./components/header";
 import { ProductList } from "./components/productList";

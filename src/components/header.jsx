@@ -1,14 +1,7 @@
-import {
-  ShoppingCart,
-  Heart,
-  LayoutDashboard,
-  LogOut,
-  LogIn,
-  Store,
-} from "lucide-react";
+
 import { useAuth } from "../contexts/AuthContext";
 import { useCart } from "../contexts/cartContext";
-import { navigate, useCurrentPath } from "../pages/Router";
+import { navigate, useCurrentPath } from "../pages/router";
 
 export const Header = () => {
   const { isAuthenticated, user, logout } = useAuth();

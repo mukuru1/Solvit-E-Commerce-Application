@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useAuth } from "../contexts/Authcontext";
+import { useAuth } from "../contexts/authContext";
 
 let currentPath = window.location.hash.slice(1) || "/";
 let listeners = [];
